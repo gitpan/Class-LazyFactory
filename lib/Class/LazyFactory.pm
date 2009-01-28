@@ -4,11 +4,11 @@ use strict;
 use warnings;
 use Carp;
 use Class::Inspector;
-use UNIVERSAL::can;
+use UNIVERSAL;
 
 our @ISA = qw();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $class_config = [
     { }, # element[0] is namespace
